@@ -2,12 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,16 +12,102 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.wrapper {
+  max-width: 1170px;
+  margin: 0 auto;
+  width: 100%;
+}
 
 .App-link {
   color: #61dafb;
 }
+.racipe h2 {
+  font-family: cursive;
+}
+/*recipe css*/
+.card {
+  max-width: 50%;
+  display: inline-block;
+  padding: 1%;
+  width: 40%;
+  background: #fff;
+  vertical-align: top;
+  margin: 1%;
+  border-radius: 20px;
+  border: 1px solid #f7f7f7;
+}
+.recipe_img {
+  width: 100%;
+  height: 300px;
+}
+.btn_parent {
+  padding: 30px 0px;
+  border-top: 1px solid #e4e4e4;
+  background: #f7f7f7;
+  border-radius: 0 0 20px 20px;
+}
+.card h4 {
+  padding: 0px;
+  font-size: 18px;
+  margin: 0%;
+  padding: 10px 20px;
+}
+.card span {
+  display: block;
+  text-transform: capitalize;
+  font-size: 14px;
+}
+.card p {
+  display: block;
+  padding: 10px 0;
+  margin: 0;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 500;
+}
+.btn {
+  display: inline-block;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: #fff;
+  margin: 0 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  width: auto;
+}
+.green {
+  background: #19bf19;
+}
+.red {
+  background: #de0707;
+}
+/*racipe css end*/
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.Detail_card {
+}
+
+.card_left_side {
+  display: inline-block;
+  width: 30%;
+}
+.img_details {
+  width: 100%;
+}
+.btn_back {
+  width: 60%;
+  border: none;
+  background: yellow;
+  line-height: 30px;
+  font-size: 16px;
+  text-transform: capitalize;
+  margin: 10px;
+}
+.card_right_side {
+  vertical-align: top;
+  display: inline-block;
+  width: 48%;
+}
+.card_right_side p {
+  display: inline-block;
 }
